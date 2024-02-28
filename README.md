@@ -79,6 +79,8 @@ docker-compose up
 
 Faster Whisperを使って音声ファイルをテキストに変換するデモを実行してみましょう。以下のPythonスクリプトを`demo01_whisper_audio_transcription.py`として保存します。
 
+`demo\demo01_whisper_audio_transcription.py`
+
 ```python
 from faster_whisper import WhisperModel
 
