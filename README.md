@@ -1,6 +1,6 @@
 
 <h1>
-<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/VTubeStudio/master/Images/icon.png" height=300px align="right"/>
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/faster-whisper-docker/master/docs/fast_icon.png" height=300px align="left"/>
 faster-whisper-docker <br>
 </h1>
 
