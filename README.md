@@ -1,3 +1,7 @@
+
+
+# **CTranslate2を使用したFaster Whisperの書き起こし** 
+
 **faster-whisper** は、OpenAIのWhisperモデルを[CTranslate2](https://github.com/OpenNMT/CTranslate2/) を使って再実装したものです。CTranslate2は、Transformerモデルのための高速な推論エンジンです。
 
 https://github.com/Sunwood-ai-labs/faster-whisper
