@@ -6,7 +6,7 @@ faster-whisper-docker <br>
 
 **Faster Whisper** はOpenAIのWhisperモデルを再実装したもので、CTranslate2を使用して高速に音声認識を行います。このガイドでは、Dockerを使用してFaster Whisperを簡単に設定し、実行する方法を紹介します。
 
-CTranslate2を使用したFaster Whisperについては[こちら](https://github.com/Sunwood-ai-labs/faster-whisper-docker/blob/master/README_fast_JP.md)
+CTranslate2を使用したFaster Whisperについては[こちら](https://github.com/Sunwood-ai-labs/faster-whisper-docker/blob/master/docs/README_FAST_JP.md)
 
 
 
