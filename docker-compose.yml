@@ -3,7 +3,7 @@ services:
     build: .
     volumes:
       - ./:/app
-    
+      - ./.cache:/root/.cache
     deploy:
       resources:
         reservations:
@@ -13,4 +13,3 @@ services:
               capabilities: [ gpu ]
     working_dir: /app
     tty: true
-    # restart: unless-stopped
