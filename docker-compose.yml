@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ./:/app
+    
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+    ports:
+      - 10300:10300
+    tty: true
+    # restart: unless-stopped
