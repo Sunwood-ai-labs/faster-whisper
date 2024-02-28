@@ -11,7 +11,6 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [ gpu ]
-    ports:
-      - 10300:10300
+    working_dir: /app
     tty: true
     # restart: unless-stopped
