@@ -3,3 +3,6 @@ ctranslate2>=4.0,<5
 huggingface_hub>=0.13
 tokenizers>=0.13,<0.16
 onnxruntime>=1.14,<2
+
+streamlit
+audio-recorder-streamlit
