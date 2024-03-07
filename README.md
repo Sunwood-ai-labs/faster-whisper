@@ -86,6 +86,8 @@ faster-whisper-wisper
 
 docker-compose -f docker-compose.yml -f Style-Bert-VITS2/docker-compose_external.yml up --build
 
+git submodule add https://github.com/Sunwood-ai-labs/Style-Bert-VITS2.git Style-Bert-VITS2
+
 ```
 
 ## デモの実行
