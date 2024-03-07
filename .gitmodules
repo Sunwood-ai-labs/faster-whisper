@@ -1,0 +1,3 @@
+[submodule "Style-Bert-VITS2"]
+	path = Style-Bert-VITS2
+	url = https://github.com/Sunwood-ai-labs/Style-Bert-VITS2.git
