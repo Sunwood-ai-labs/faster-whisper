@@ -1,9 +1,26 @@
+version: '3.8'
+
 services:
-  app:
+  wisper:
     build: .
     volumes:
       - ./:/app
       - ./.cache:/root/.cache
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /mnt/wslg:/mnt/wslg
+      - ./.streamlit:/root/.streamlit
+
+    environment:
+      - PULSE_SERVER=/mnt/wslg/PulseServer
+      - DISPLAY=$DISPLAY
+      # - PULSE_SERVER=$PULSE_SERVER
+      - WAYLAND_DISPLAY=$WAYLAND_DISPLAY
+      - XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR
+    ports:
+      - 8502:8502
+      - 8503:8503
+    env_file:
+      - .env
     deploy:
       resources:
         reservations:
@@ -13,3 +30,5 @@ services:
               capabilities: [ gpu ]
     working_dir: /app
     tty: true
+    command: streamlit run streamlit/main.py --server.port 8502
+    # network_mode: "host"
