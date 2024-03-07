@@ -14,3 +14,4 @@ venv/
 .idea/
 .vscode/
 .cache/
+.env
