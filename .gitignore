@@ -17,3 +17,5 @@ venv/
 .env
 streamlit/saved_audios/
 audio/output/output.wav
+temp.wav
+temp_voice_output.wav
