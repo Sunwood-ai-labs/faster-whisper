@@ -15,3 +15,5 @@ venv/
 .vscode/
 .cache/
 .env
+streamlit/saved_audios/
+audio/output/output.wav
