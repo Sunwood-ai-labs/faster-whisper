@@ -74,6 +74,7 @@ RUN pip install faster-whisper
 docker-compose up
 ```
 
+### MEMO
 
 ```bash
 docker-compose -f docker-compose.yml -f Style-Bert-VITS2/docker-compose_external.yml up
