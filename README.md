@@ -75,6 +75,19 @@ docker-compose up
 ```
 
 
+```bash
+docker-compose -f docker-compose.yml -f Style-Bert-VITS2/docker-compose_external.yml up
+docker-compose -f Style-Bert-VITS2/docker-compose_external.yml up
+
+docker-compose -f Style-Bert-VITS2/docker-compose_external.yml exec style-bert /bin/bash
+docker-compose -f docker-compose.yml exec wisper /bin/bash
+docker-compose  exec wisper /bin/bash
+faster-whisper-wisper
+
+docker-compose -f docker-compose.yml -f Style-Bert-VITS2/docker-compose_external.yml up --build
+
+```
+
 ## デモの実行
 
 Faster Whisperを使って音声ファイルをテキストに変換するデモを実行してみましょう。以下のPythonスクリプトを`demo01_whisper_audio_transcription.py`として保存します。
