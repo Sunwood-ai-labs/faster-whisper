@@ -22,6 +22,7 @@ RUN apt-get update \
 RUN pip install faster-whisper \
                 streamlit \
                 audio-recorder-streamlit \
-                google-generativeai
+                fastapi uvicorn python-multipart \
+                google-generativeai 
 # streamlit run streamlit/main.py --server.port 8502  --server.address 0.0.0.0
 # streamlit run streamlit/test.py --server.port 8502  --server.address 0.0.0.0
